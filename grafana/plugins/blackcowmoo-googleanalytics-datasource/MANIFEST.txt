@@ -1,0 +1,44 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "blackcowmoo",
+  "signedByOrgName": "blackcowmoo",
+  "plugin": "blackcowmoo-googleanalytics-datasource",
+  "version": "0.3.1",
+  "time": 1748154827030,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "img/after-setting.png": "d694c4e765561ceb563bf08e3fbf756ca84c59c94f7796e6a87660e45c6eb0a8",
+    "img/logo.svg": "e305f4cb480bbf688b4e899bb2235ead8a5800843d6e3d2a588478fecd5f997c",
+    "img/setting.png": "499b023b4affae115edb26c3b52418ef3cdf26f6f60f4abf9953a281fbe876d0",
+    "img/query.png": "44bebf7d7aa78688a937f6bf8d270e0a1a71f97fdab58e8eb2a009a55327a7f1",
+    "CHANGELOG.md": "cc0f0e119a3c9976871926f092d1152eb3537176271345854df17bbcd84fe366",
+    "README.md": "1870810febce01b616983ff68e72b99759af1771addd106241eb7884dc898ef7",
+    "go_plugin_build_manifest": "1e21c8da88e4a5009cf339030b0db38e16c194d0558103d80fca424aa70d327b",
+    "gpx_blackcowmoo-googleanalytics-datasource_windows_amd64.exe": "4632c9072c13c9ad17309c2ef4a0ecea1c59e63fdb5881bf599753337086f6bf",
+    "module.js.map": "32287cc9035c43e2389752f984d715952a53f1a4fd12a09d0c373163d65910ee",
+    "LICENSE": "9bf04aceb80d46dd6b728cff1ef6b89e805e3e36089bff7974f53ea1a32bb562",
+    "gpx_blackcowmoo-googleanalytics-datasource_linux_amd64": "9df25f68b8a38803354b7d5ec84cfcf8e110ec4c1e2e07e5fa86429428f3df3f",
+    "module.js": "fc55d42f072d8c567624377c1f08cdc3613c34df644beaa79d4abf3b1f9b2055",
+    "plugin.json": "cdefacfbd172f4c1a4410ee61ef43d9dc2ef0e663e73486732bf4ac083ca7fa4",
+    "gpx_blackcowmoo-googleanalytics-datasource_linux_arm64": "6282e2aa647c14193bb4ac3e38eac88692c8a2759b5ea3bc0d3d3039194b6188",
+    "gpx_blackcowmoo-googleanalytics-datasource_darwin_amd64": "c9ab4f8f7a4e64acb55933ac4eaceeabd128794a964d8c21e95d5ad32009cf26",
+    "gpx_blackcowmoo-googleanalytics-datasource_darwin_arm64": "91ccd1126b9114775e64feffe9cc209f53f7966b2d4c2f84541ea07cef1a6f8e",
+    "gpx_blackcowmoo-googleanalytics-datasource_linux_arm": "d734fca18948a86d33da7a42c570d900ef560ef5a911cfea7ada1e3da76cb473"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.11
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmgyucsAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm52j8AgkBF/wYS2wkYFfKtz+6POy90ucvINAJeFNZeNP1aXAL2TZGCkQu
+IKz3hFNzL6Ga+CLuJ21MLEEvmGBzwThnl3xORm4CCQEz4PkFInDKMCwwqh1r
+xdgIlnSzqSDLkFyTJ4BLwBa433zo5BU7V8Q4r7lYMukbWd4HiZeSbLfDgCkn
+sbrXvo2jNQ==
+=AOJ7
+-----END PGP SIGNATURE-----

@@ -1,0 +1,40 @@
+groups:
+- name: example
+  rules:
+  - alert: PrometheusTargetMissing
+    expr: up == 0
+    for: 0m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Prometheus target missing (instance {{ $labels.instance }})"
+      description: "A Prometheus target has disappeared. An exporter might be crashed. VALUE = {{ $value }}  LABELS: {{ $labels }}"
+
+- name: blackbox_alerts
+  rules:
+  - alert: SiteStatusCodeChanged
+    expr: probe_http_status_code{instance="https://lms.skillfactory.ru", job="blackbox"} != 200
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Статус-код сайта lms.skillfactory.ru изменился"
+      description: "Ожидался 200, получен {{ $value }}"
+
+  - alert: SiteResponseTooLong
+    expr: probe_duration_seconds{instance="https://lms.skillfactory.ru", job="blackbox"} > 5
+    for: 1m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Задержка ответа сайта lms.skillfactory.ru превышает 5 секунд"
+      description: "Текущее значение: {{ $value }} секунд"
+
+  - alert: ServerRebooted
+    expr: (node_time_seconds - node_boot_time_seconds) / 60 < 5
+    for: 1m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Сервер был перезагружен"
+      description: "Аптайм сервера менее 5 минут ({{ $value }} минут)"

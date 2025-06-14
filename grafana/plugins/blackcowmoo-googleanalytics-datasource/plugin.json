@@ -1,0 +1,58 @@
+{
+  "type": "datasource",
+  "name": " Google Analytics",
+  "id": "blackcowmoo-googleanalytics-datasource",
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_blackcowmoo-googleanalytics-datasource",
+  "info": {
+    "description": " GoogleAnalytics Visualize & datasource",
+    "author": {
+      "name": "blackcowmoo",
+      "url": "https://github.com/blackcowmoo"
+    },
+    "keywords": [
+      "GA",
+      "ga",
+      "GoogleAnalytics",
+      "Google",
+      "googleanalytics",
+      "google",
+      "analytics"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/blackcowmoo/grafana-google-analytics-datasource"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/blackcowmoo/grafana-google-analytics-datasource/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [
+      {
+        "name": "Setting",
+        "path": "img/setting.png"
+      },
+      {
+        "name": "After Setting",
+        "path": "img/after-setting.png"
+      },
+      {
+        "name": "Dashboard",
+        "path": "img/query.png"
+      }
+    ],
+    "version": "0.3.1",
+    "updated": "2025-05-25"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.0.0",
+    "plugins": []
+  }
+}
